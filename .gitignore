@@ -1,0 +1,12 @@
+venv/
+.env
+__pycache__/
+*.pyc
+node_modules/
+
+datasets/
+data/
+models/
+checkpoints/
+
+.DS_Store

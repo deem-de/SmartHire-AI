@@ -1,0 +1,76 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.grid-backdrop {
+  background-image:
+    linear-gradient(rgba(55, 114, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(55, 114, 255, 0.03) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.section-fade {
+  animation: sectionFade 0.28s ease;
+}
+
+.chat-enter {
+  animation: chatEnter 0.35s ease;
+}
+
+.pulse-ring {
+  animation: pulseRing 1.5s ease-in-out infinite;
+}
+
+.glass-scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.glass-scroll::-webkit-scrollbar-thumb {
+  background: rgba(123, 138, 163, 0.35);
+  border-radius: 999px;
+}
+
+.glass-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@keyframes sectionFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes chatEnter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseRing {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 0.82;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "baseline": {
+    "precision": 0.6791514012664491,
+    "recall": 0.910168531791563,
+    "f1": 0.7778701077076389,
+    "accuracy": 0.9236493844520759,
+    "token_accuracy": 0.9236493844520759,
+    "entity_token_accuracy": 0.910168531791563,
+    "entity_precision": 0.6642208314531792,
+    "entity_recall": 0.9134716563688854,
+    "entity_f1": 0.7691573710157439,
+    "section_level_accuracy": 0.9236493844520759
+  },
+  "section_aware": {
+    "precision": 0.6860078169917939,
+    "recall": 0.9068108888240622,
+    "f1": 0.7811050385021044,
+    "accuracy": 0.9273477847630172,
+    "token_accuracy": 0.9273477847630172,
+    "entity_token_accuracy": 0.9068108888240622,
+    "entity_precision": 0.6662642724209044,
+    "entity_recall": 0.9014809168617629,
+    "entity_f1": 0.7662272303945671,
+    "section_level_accuracy": 0.9380969137077946
+  },
+  "seed": 42,
+  "model_name": "bert-base-cased",
+  "epochs": 5,
+  "max_length": 128,
+  "batch_size": 16
+}

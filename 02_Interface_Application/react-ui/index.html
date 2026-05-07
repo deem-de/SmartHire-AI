@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartHire UI</title>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: "#eef4ff",
+                100: "#dce8ff",
+                500: "#3772ff",
+                600: "#2f63e8",
+                700: "#244dba",
+              },
+              slateish: {
+                50: "#f8fbff",
+                100: "#eff4fb",
+                200: "#d9e5f3",
+                300: "#b4c4d9",
+                400: "#7b8aa3",
+                500: "#56657d",
+                600: "#37455c",
+                700: "#28344a",
+                900: "#111827",
+              },
+            },
+            boxShadow: {
+              soft: "0 20px 45px rgba(35, 63, 119, 0.08)",
+              card: "0 16px 35px rgba(31, 59, 119, 0.06)",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260504b" />
+  </head>
+  <body class="bg-brand-50 text-slateish-700">
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" data-presets="react" src="./app.jsx?v=20260504b"></script>
+  </body>
+  </html>
