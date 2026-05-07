@@ -35,7 +35,6 @@ SmartHire_Model_And_Interface_Code/
 |   +-- requirements.txt
 +-- .gitattributes
 +-- .gitignore
-+-- README_FIRST.txt
 ```
 
 ## Requirements
