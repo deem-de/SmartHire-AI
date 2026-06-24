@@ -132,3 +132,15 @@ want to train from scratch, place the dataset locally and pass its path with
   `--output_dir`.
 - Resume uploads are temporarily written under
   `02_Interface_Application/outputs/temp_uploads/`.
+  ## Team Members
+- Deem Alrashoud
+- Ghala hazazi
+- renad hazazi
+- rahaf saadAldeen
+- mace marzogi
+
+## My Contribution
+- Model development and testing
+- Resume parsing pipeline
+- Evaluation and experimentation
+- Documentation
